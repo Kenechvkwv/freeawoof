@@ -10,14 +10,18 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #000000; 
+    color: #212529; 
+}
+
+a, span {
+    font-family: "Jost", sans-serif;
 }
 
 div {
     display: block;
 }
 
-.container-freeawoof {
+.container-muse {
         width: 100%;
         min-height: 100vh;
         display: flex;
@@ -25,7 +29,6 @@ div {
         justify-content: center;
         align-items: center;
         padding: 15px;
-        /* background-image: url(../img/close-up-image-mans-hands-wristwatch-typing-laptop.jpg); */
         background-color: #37517e;
         background-repeat: no-repeat;
         background-size: cover;
@@ -34,15 +37,15 @@ div {
         z-index: 1;
 }
 
-.freeawoof-login {
-    width: 450px;
-    background:rgb(255, 255, 255);
+.muse-login {
+    width: 430px;
+    background:rgba(255, 255, 255, 0.911);
     border-radius: 10px;
     overflow: hidden;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 45px;
-    padding-left: 45px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-right: 55px;
+    padding-left: 55px;
 }
 
 .loginform {
@@ -51,18 +54,18 @@ div {
 
 .login-title {
     display: block;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Jost", sans-serif;
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #0c2e8a;
+    color: #47b2e4;
     line-height: 1.2;
     text-align: center;
     padding-bottom: 20px;
     margin-top: 20px;
 }
 
-.freeawoof10 {
+.muse10 {
     width: 100%;
     position: relative;
     background-color: rgba(15, 15, 15, 0.85);
@@ -74,8 +77,8 @@ div {
     position: relative;
 }
 
-.freeawoof10 {
-    font-family: "Open Sans", sans-serif;
+.muse10 {
+    font-family: "Jost", sans-serif;
     font-size: 17px;
     color: #000000;
     line-height: 1.2;
@@ -101,43 +104,62 @@ input {
     display: inline-block;
     cursor: text;
     padding: 1px 2px;
-    border-width: 1.5px;
+    border-width: 2px;
     border-style: solid;
     border-color: #47b2e4;
     margin: 0rem;
     border-image: initial;
     font-weight: bold;
     font-size: 17px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Raleway", sans-serif;
     color: internal-light-dark(black, white);
-    /* box-shadow:0 0px 15px 0px rgba(72, 72, 73, 0.398); */
 }
 
 ::placeholder{
     color: rgb(0, 0, 0);
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
 }
 
-.focus-freeawoof10 {
+.focus-muse10 {
     display: block;
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     top: 0;
     left: 0;
     pointer-events: none;
     border-radius: 20px;
 }
 
-.container-freeawoof10-button {
+.muse12 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.muse12 {
+    font-family: "Jost", sans-serif;
+    font-size: 17px;
+    color: #0c2e8a;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    padding: 0 20px 0 23px;
+}
+
+.container-muse10-button {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.freeawoof10-btn {
+.muse10-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,12 +167,12 @@ input {
     min-width: 200px;
     height: 40px;
     background-color: #47b2e4;
-    border-radius: 25px;
-    font-family: "Open Sans", sans-serif;
+    border-radius: 30px;
+    font-family: "Raleway", sans-serif;
     font-size: 15px;
     font-weight: bold;
-    color: #37517e;
-    line-height: 1.2;
+    color: #fff;
+    line-height: 2;
     text-transform: uppercase;
     transition: all 0.4s;
 }
@@ -168,20 +190,21 @@ button:focus {
 }
 
 .loginP {
-    color: rgb(255, 255, 255);
+    color: #fff;
     text-decoration: none;
 }
 
 .loginP:hover {
-    color: #37517e;
+    color: #73c5eb;
 }
 
 .forgotpassword {
-    padding-left: -30px;
+    padding-left: 50px;
     font-size: 17px;
     font-weight: 300;
-    font-family: "Open Sans", sans-serif;
-    text-align: center;
+    line-height: 3;
+    color: black;
+    font-family: "Jost", sans-serif;
 }
 
 .click2 {
@@ -192,7 +215,7 @@ button:focus {
 .forgotpassword a {
     font-size: 17px;
     font-weight: 700;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Jost", sans-serif;
 }
 
 .text1 {
@@ -201,31 +224,27 @@ button:focus {
     font-size: 17px;
     font-weight: 800;
     color: #47b2e4;
-    font-family: "Open Sans", sans-serif;
-    line-height: 1.4;
+    font-family: "Jost", sans-serif;
+    line-height: 3.5;
 }
 
 .backhome {
     margin-top: -50px;
-    /* padding-left: -10px; */
+    padding-left: -40px;
     text-align: center;
 }
 
 .backhome a i {
-    color: #47b2e4;
+    color: black;
     font-size: 17px;
 }
 
 span {
     color: black;
     font-size: 17px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .backhome a {
     text-decoration: none;
-}
-
-a:hover {
-    color: #37517e;
 }
