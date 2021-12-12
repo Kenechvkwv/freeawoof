@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000; 
+}
+
+div {
+    display: block;
+}
+
+.container-freeawoof {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        /* background-image: url(../img/close-up-image-mans-hands-wristwatch-typing-laptop.jpg); */
+        background-color: #37517e;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        z-index: 1;
+}
+
+.freeawoof-login {
+    width: 450px;
+    background:rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.loginform {
+    width: 100%;
+}
+
+.login-title {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0c2e8a;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.freeawoof10 {
+    width: 100%;
+    position: relative;
+    background-color: rgba(15, 15, 15, 0.85);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.validate-input {
+    position: relative;
+}
+
+.freeawoof10 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    color: #000000;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 62px;
+    background: transparent;
+    padding: 0 20px 0 23px;
+}
+
+input {
+    outline: none;
+    border: none;
+    overflow: visible;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    display: inline-block;
+    cursor: text;
+    padding: 1px 2px;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #47b2e4;
+    margin: 0rem;
+    border-image: initial;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    color: internal-light-dark(black, white);
+    /* box-shadow:0 0px 15px 0px rgba(72, 72, 73, 0.398); */
+}
+
+::placeholder{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.focus-freeawoof10 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    border-radius: 20px;
+}
+
+.container-freeawoof10-button {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.freeawoof10-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2px;
+    min-width: 200px;
+    height: 40px;
+    background-color: #47b2e4;
+    border-radius: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #37517e;
+    line-height: 1.2;
+    text-transform: uppercase;
+    transition: all 0.4s;
+}
+
+button {
+    outline: none;
+    border: none;
+    background: transparent;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+button:focus {
+    outline: none;
+}
+
+.loginP {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.loginP:hover {
+    color: #37517e;
+}
+
+.forgotpassword {
+    padding-left: -30px;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.click2 {
+    color: #47b2e4;
+    text-decoration: none;
+}
+
+.forgotpassword a {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+
+.text1 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 800;
+    color: #47b2e4;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.4;
+}
+
+.backhome {
+    margin-top: -50px;
+    /* padding-left: -10px; */
+    text-align: center;
+}
+
+.backhome a i {
+    color: #47b2e4;
+    font-size: 17px;
+}
+
+span {
+    color: black;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.backhome a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #37517e;
+}
