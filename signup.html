@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
     
-        <title>Login</title>
+        <title>Sign Up</title>
         <meta content="" name="description">
         <meta content="" name="keywords">
     
@@ -13,84 +13,104 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     
         <!--Css file-->
-        <!-- <link href="styles/css/login.css" rel="stylesheet"> -->
+        <link href="styles/css/signup.css" rel="stylesheet">
         <link href="styles/bootstrap-5.0.0-beta1-dist/cssb/bootstrap.min.css" rel="stylesheet">
         <link href="styles/fontawesome/css/all.min.css" rel="stylesheet">
     
     </head>
 
     <body>
-
-        <div class="container-signup">
-
-            <div class="signup">
-
-                <div class="backhome">
-                    <a href="index.html"><i class="fa fa-home"></i></a>
-                </div>
-
-                <form action="" class="signupform">
-
-                    <span class="login-title">
-                        Login
-                    </span>
-
-                    <div class="signup8 validate-input" data-validate="Enter your name">
-
-                        <input class="freeawoof10" type="text" name="name" id="name" placeholder="name">
-                        <span class="focus-freeawoof10"></span>
     
-                    </div>
-
-                    <div class="signup8 validate-input" data-validate="Enter your email">
-
-                        <input class="freeawoof10" type="text" name="email" id="email" placeholder="email">
-                        <span class="focus-freeawoof10"></span>
-    
-                    </div>
-
-                    <div class="signup8 validate-input" data-validate="Enter phone number">
-    
-                        <input class="freeawoof10" type="tel" name="phone" id="phone" placeholder="phone number">
-                        <span class="focus-freeawoof10"></span>
-    
-                    </div>
-    
-                    <div class="signup8 validate-input" data-validate="Enter password">
-    
-                        <input class="freeawoof10" type="password" name="pass" id="password" placeholder="password">
-                        <span class="focus-freeawoof10"></span>
-    
-                    </div>
-
-                    <div class="signup8 validate-input" data-validate="Confirm password">
-    
-                        <input class="freeawoof10" type="password" name="re_password" id="re_password" placeholder="repeat your password">
-                        <span class="focus-freeawoof10"></span>
-    
-                    </div>
-
-                    <div class="container-freeawoof10-button">
-
-                        <button class="freeawoof10-btn"> <a class="submitp" href="#">Submit</a></button>
-    
-                    </div>
-
-                    <div class="text-center">
-
-                        <span class="logintext">Already have an account? <a href="login.html" class="text1">Login</a></span>
-    
-                    </div>
-
-                </form>
-
-            </div>
-
+        <div class="container-main">
+     
+              <div class="signup-content">
+     
+                 <div class="backhome">
+     
+                     <a href="index.html"><i class="fa fa-home"></i> <span>Home</span> </a>
+     
+                 </div>
+     
+                 <form action="" class="signup-form" >
+     
+                     <h2 class="signup-title">Create Account</h2>
+     
+                     <div class="form-cliq validate-input">
+     
+                         <input type="text" class="form-cliq" name="username" placeholder="username">
+                         <span class="focus-muse10"></span>
+     
+                     </div>
+     
+                     <div class="form-cliq validate-input">
+     
+                         <input type="tel" class="form-cliq" name="phone" placeholder="phone number">
+                         <span class="focus-muse10"></span>
+     
+                     </div>
+     
+                     <div class="form-cliq14">
+     
+                         <label for="gender" class="gender">
+     
+                             Gender:
+     
+                             <input class="genderin" type="radio" name="gender" value="male">Male
+                             <input class="genderin" type="radio" name="gender" value="female">Female
+                             <input class="genderin" type="radio" name="gender" value="other">Other
+     
+                         </label>
+     
+                     </div>
+     
+                     <div class="form-cliq12 validate-input">
+     
+                         <input type="password" class="form-cliq" name="password" placeholder="password">
+                         <span class="focus-muse10"></span>
+     
+                     </div>
+     
+                     <div class="form-cliq12 validate-input">
+     
+                         <input type="password" class="form-cliq" name="re_password"  placeholder="confirm your password">
+                         <span class="focus-muse10"></span>
+     
+                     </div>
+     
+                     <div class="form-cliq13">
+     
+                         <input type="checkbox" name="agree-terms" id="agree-terms" class="agree-term">
+     
+                         <label for="agree-term" class="agree-term">
+     
+                             <span>
+     
+                                 <span>I agree to all statement in <a href="#" class="terms2">Terms of service</a></span>
+     
+                             </span>
+     
+                         </label>
+     
+                     </div>
+     
+                     <div class="form-cliq-button">
+     
+                         <button class="muse-btn"> <a class="signupP" href="profile.html">SIGN UP</a></button>
+     
+                     </div>
+     
+                     <div class="text-center">
+     
+                         <p class="logintext">Have already an account? <a class="login1" href="login.html">Login Here</a></p> 
+     
+                     </div>
+     
+                 </form>              
+     
+             </div>
+     
         </div>
-
-
-
-
-    </body>
+     
+     </body>
 
 </html>
