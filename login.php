@@ -1,3 +1,4 @@
+<?php include('db.php') ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +22,7 @@
 </head>
 
 <body>
-    
+
     <div class="container-muse">
 
         <div class="muse-login">
@@ -32,7 +33,7 @@
 
             </div>
 
-            <form action="" class="loginform">
+            <form action="db.php" class="loginform" method="post">
 
                 <span class="login-title">
                     Login
@@ -47,30 +48,33 @@
 
                 <div class="muse12 validate-input" data-validate="Enter password">
 
-                    <input class="muse10" type="password" name="pass" placeholder="password">
+                    <input class="muse10" type="password" name="password" placeholder="password">
                     <span class="focus-muse10"></span>
 
                 </div>
 
-                <div class="forgotpassword">
-
-                    <span>Forgot Password <a class="click2" href="#">Click Here</a></span>
-
-                </div>
 
                 <div class="container-muse10-button">
 
-                    <button class="muse10-btn"> <a class="loginP" href="#">Login</a></button>
+                    <button class="muse10-btn" type="submit" name="login_user"> Login</button>
 
                 </div>
 
-                <div class="text-center">
 
-                    <a href="signup.html" class="text1"> Sign Up </a>
-
-                </div>
 
             </form>
+
+            <div class="forgotpassword">
+
+                <span>Forgot Password <a class="click2" href="#">Click Here</a></span>
+
+            </div>
+
+            <div class="text-center">
+
+                <a href="signup.php" class="text1"> Sign Up </a>
+
+            </div>
 
         </div>
 

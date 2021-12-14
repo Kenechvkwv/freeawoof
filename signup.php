@@ -1,3 +1,4 @@
+<?php include('db.php') ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -31,7 +32,7 @@
      
                  </div>
      
-                 <form action="db.php" class="signup-form" >
+                 <form action="db.php" class="signup-form" method="post">
      
                      <h2 class="signup-title">Create Account</h2>
      
@@ -95,7 +96,7 @@
      
                      <div class="form-cliq-button">
      
-                         <button class="muse-btn" name="reg_user"> SIGN UP</a></button>
+                         <button class="muse-btn" name="reg_user" type="submit"> SIGN UP</button>
      
                      </div>
      
