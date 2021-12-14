@@ -56,7 +56,7 @@
 
                 <div class="container-muse10-button">
 
-                    <button class="muse10-btn" type="submit" name="login_user"> Login</button>
+                    <button class="muse10-btn" type="submit" name="login_user" > Login</button>
 
                 </div>
 
