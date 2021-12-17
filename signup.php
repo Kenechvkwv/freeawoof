@@ -7,8 +7,8 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
     
         <title>Sign Up</title>
-        <meta content="Best Giveaway Site in Nigeria. Win airtime and cash prizes" name="description">
-        <meta content="giveaway, awoof, free airtime" name="keywords">
+        <meta content="" name="description">
+        <meta content="" name="keywords">
     
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -28,7 +28,7 @@
      
                  <div class="backhome">
      
-                     <a href="index.html"><i class="fa fa-home"></i> <span>Home</span> </a>
+                     <a href="index.php"><i class="fa fa-home"></i> <span>Home</span> </a>
      
                  </div>
      
@@ -36,21 +36,21 @@
      
                      <h2 class="signup-title">Create Account</h2>
      
-                     <div class="form-cliq validate-input">
+                     <div class="mb-2 validate-input">
      
-                         <input type="text" class="form-cliq" name="username" placeholder="username">
+                         <input type="text" class="form-control" name="username" placeholder="username">
                          <span class="focus-muse10"></span>
      
                      </div>
      
-                     <div class="form-cliq validate-input">
+                     <div class="mb-2 validate-input">
      
-                         <input type="tel" class="form-cliq" name="phone" placeholder="phone number">
+                         <input type="tel" class="form-control" name="phone" placeholder="phone number">
                          <span class="focus-muse10"></span>
      
                      </div>
      
-                     <div class="form-cliq14">
+                     <div class="mb-2">
      
                          <label for="gender" class="gender">
      
@@ -64,51 +64,49 @@
      
                      </div>
      
-                     <div class="form-cliq12 validate-input">
+                     <div class="mb-2 validate-input">
      
-                         <input type="password" class="form-cliq" name="password_1" placeholder="password">
+                         <input type="password" class="form-control" name="password_1" placeholder="password">
                          <span class="focus-muse10"></span>
      
                      </div>
      
-                     <div class="form-cliq12 validate-input">
+                     <div class="mb-2 validate-input">
      
-                         <input type="password" class="form-cliq" name="password_2"  placeholder="confirm your password">
+                         <input type="password" class="form-control" name="password_2"  placeholder="confirm your password">
                          <span class="focus-muse10"></span>
      
                      </div>
      
                      <div class="form-cliq13">
      
-                         <input type="checkbox" name="confirm" id="agree-terms" class="agree-term">
-     
-                         <label for="confirm" class="agree-term">
-     
-                             <span>
-     
-                                 <span>I agree to all statement in <a href="#" class="terms2">Terms of service</a></span>
-     
-                             </span>
-     
-                         </label>
-     
+                        <input type="checkbox" name="confirm" id="agree-terms" class="agree-term">
+    
+                        <label for="confirm" class="agree-term">
+    
+                            <span>
+    
+                                <span>I agree to all statement in <a href="#" class="terms2">Terms of service</a></span>
+    
+                            </span>
+    
+                        </label>
+    
                      </div>
      
                      <div class="form-cliq-button">
-     
-                         <button class="muse-btn" name="reg_user" type="submit"> SIGN UP</button>
-     
+        
+                            <button class="muse-btn" name="reg_user" type="submit"> SIGN UP</button>
+        
                      </div>
      
-                     
+                     <div class="text-center">
      
-                 </form>  
-                 
-                 <div class="text-center">
+                        <p class="logintext">Have already an account? <a class="login1" href="login.php">Login Here</a></p> 
+    
+                    </div>
      
-                    <p class="logintext">Have already an account? <a class="login1" href="login.html">Login Here</a></p> 
-
-                </div>
+                 </form>              
      
              </div>
      
