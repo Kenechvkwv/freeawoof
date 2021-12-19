@@ -121,16 +121,16 @@ body {
     color: #fff;
   }
   #header .logo img {
-    max-height: 40px;
+    max-height: 80px;
   }
-
+  
   /*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
-.navbar {
+  # Navigation Menu
+  --------------------------------------------------------------*/
+  /**
+  * Desktop Navigation 
+  */
+  .navbar {
     padding: 0;
   }
   .navbar ul {
@@ -322,35 +322,31 @@ body {
   .navbar-mobile .dropdown > .dropdown-active {
     display: block;
   }
-
+  
   /*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
-#hero1 {
+  # Hero Section
+  --------------------------------------------------------------*/
+  #hero {
     width: 100%;
     height: 80vh;
     background: #37517e;
   }
-
-  /* #svg {
-    max-height: 500px;
-  } */
-  #hero1 .container {
+  #hero .container {
     padding-top: 72px;
   }
-  #hero1 h1 {
+  #hero h1 {
     margin: 0 0 10px 0;
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
     color: #fff;
   }
-  #hero1 h2 {
+  #hero h2 {
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 50px;
     font-size: 24px;
   }
-  #hero1 .btn-get-started {
+  #hero .btn-get-started {
     font-family: "Jost", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -363,10 +359,10 @@ body {
     color: #fff;
     background: #47b2e4;
   }
-  #hero1 .btn-get-started:hover {
+  #hero .btn-get-started:hover {
     background: #209dd8;
   }
-  #hero1 .btn-watch-video {
+  #hero .btn-watch-video {
     font-size: 16px;
     display: flex;
     align-items: center;
@@ -375,54 +371,54 @@ body {
     color: #fff;
     line-height: 1;
   }
-  #hero1 .btn-watch-video i {
+  #hero .btn-watch-video i {
     line-height: 0;
     color: #fff;
     font-size: 32px;
     transition: 0.3s;
     margin-right: 8px;
   }
-  #hero1 .btn-watch-video:hover i {
+  #hero .btn-watch-video:hover i {
     color: #47b2e4;
   }
-  #hero1 .animated {
+  #hero .animated {
     animation: up-down 1.5s ease-in-out infinite alternate-reverse both;
   }
   @media (max-width: 991px) {
-    #hero1 {
+    #hero {
       height: 100vh;
       text-align: center;
     }
-    #hero1 .animated {
+    #hero .animated {
       -webkit-animation: none;
       animation: none;
     }
-    #hero1 .hero-img {
+    #hero .hero-img {
       text-align: center;
     }
-    #hero1 .hero-img img {
+    #hero .hero-img img {
       width: 30%;
     }
   }
   @media (max-width: 768px) {
-    #hero1 h1 {
+    #hero h1 {
       font-size: 28px;
       line-height: 36px;
     }
-    #hero1 h2 {
+    #hero h2 {
       font-size: 18px;
       line-height: 24px;
       margin-bottom: 30px;
     }
-    #hero1 .hero-img img {
+    #hero .hero-img img {
       width: 50%;
     }
   }
   @media (max-width: 575px) {
-    #hero1 .hero-img img {
+    #hero .hero-img img {
       width: 50%;
     }
-    #hero1 .btn-get-started {
+    #hero .btn-get-started {
       font-size: 16px;
       padding: 10px 24px 11px 24px;
     }
@@ -446,268 +442,6 @@ body {
     }
   }
 
-  *--------------------------------------------------------------
-  Sections General
---------------------------------------------------------------*/
-section {
-  padding: 60px 0;
-  overflow: hidden;
-}
-
-.section-bg {
-  background-color: #f3f5fa;
-}
-
-.section-title {
-  text-align: center;
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
-.section-title h2 {
-  font-size: 32px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  position: relative;
-  color: #37517e;
-}
-.section-title h2::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 120px;
-  height: 1px;
-  background: #ddd;
-  bottom: 1px;
-  left: calc(50% - 60px);
-}
-.section-title h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: #47b2e4;
-  bottom: 0;
-  left: calc(50% - 20px);
-}
-.section-title p {
-  margin-bottom: 0;
-}
-
-  /*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.packages .row {
-    padding-top: 40px;
-  }
-  .packages .box {
-    padding: 20px 40px;
-    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
-    background: #fff;
-    height: 100%;
-    border-top: 4px solid #fff;
-    border-radius: 5px;
-  }
-  .packages h3 {
-    font-weight: 500;
-    margin-bottom: 15px;
-    font-size: 20px;
-    color: #37517e;
-  }
-  .packages h4 {
-    font-size: 48px;
-    color: #37517e;
-    font-weight: 400;
-    font-family: "Jost", sans-serif;
-    margin-bottom: 25px;
-  }
-  .packages h4 sup {
-    font-size: 28px;
-  }
-  .packages h4 span {
-    color: #47b2e4;
-    font-size: 18px;
-    display: block;
-  }
-  .packages ul {
-    padding: 20px 0;
-    list-style: none;
-    color: #999;
-    text-align: left;
-    line-height: 20px;
-  }
-  .packages ul li {
-    padding: 10px 0 10px 30px;
-    position: relative;
-  }
-  .packages ul i {
-    color: #28a745;
-    font-size: 24px;
-    position: absolute;
-    left: 0;
-    top: 6px;
-  }
-  .packages ul .na {
-    color: #ccc;
-  }
-  .packages ul .na i {
-    color: #ccc;
-  }
-  .packages ul .na span {
-    text-decoration: line-through;
-  }
-  .packages .buy-btn {
-    display: inline-block;
-    padding: 12px 35px;
-    border-radius: 50px;
-    color: #47b2e4;
-    transition: none;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Jost", sans-serif;
-    transition: 0.3s;
-    border: 1px solid #47b2e4;
-  }
-  .packages .buy-btn:hover {
-    background: #47b2e4;
-    color: #fff;
-  }
-  .packages .featured {
-    border-top-color: #47b2e4;
-  }
-  .packages .featured .buy-btn {
-    background: #47b2e4;
-    color: #fff;
-  }
-  .packages .featured .buy-btn:hover {
-    background: #23a3df;
-  }
-  @media (max-width: 992px) {
-    .packages .box {
-      max-width: 60%;
-      margin: 0 auto 30px auto;
-    }
-  }
-  @media (max-width: 767px) {
-    .packages .box {
-      max-width: 80%;
-      margin: 0 auto 30px auto;
-    }
-  }
-  @media (max-width: 420px) {
-    .packages .box {
-      max-width: 100%;
-      margin: 0 auto 30px auto;
-    }
-  }
-
-  .packages2 .row {
-    padding-top: 40px;
-  }
-  .packages2 .box {
-    padding: 20px 40px;
-    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
-    background: #fff;
-    height: 100%;
-    border-top: 4px solid #fff;
-    border-radius: 5px;
-  }
-  .packages2 h3 {
-    font-weight: 500;
-    margin-bottom: 15px;
-    font-size: 20px;
-    color: #37517e;
-  }
-  .packages2 h4 {
-    font-size: 48px;
-    color: #37517e;
-    font-weight: 400;
-    font-family: "Jost", sans-serif;
-    margin-bottom: 25px;
-  }
-  .packages2 h4 sup {
-    font-size: 28px;
-  }
-  .packages2 h4 span {
-    color: #47b2e4;
-    font-size: 18px;
-    display: block;
-  }
-  .packages2 ul {
-    padding: 20px 0;
-    list-style: none;
-    color: #999;
-    text-align: left;
-    line-height: 20px;
-  }
-  .packages2 ul li {
-    padding: 10px 0 10px 30px;
-    position: relative;
-  }
-  .packages2 ul i {
-    color: #28a745;
-    font-size: 24px;
-    position: absolute;
-    left: 0;
-    top: 6px;
-  }
-  .packages2 ul .na {
-    color: #ccc;
-  }
-  .packages2 ul .na i {
-    color: #ccc;
-  }
-  .packages2 ul .na span {
-    text-decoration: line-through;
-  }
-  .packages2 .buy-btn {
-    display: inline-block;
-    padding: 12px 35px;
-    border-radius: 50px;
-    color: #47b2e4;
-    transition: none;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Jost", sans-serif;
-    transition: 0.3s;
-    border: 1px solid #47b2e4;
-  }
-  .packages2 .buy-btn:hover {
-    background: #47b2e4;
-    color: #fff;
-  }
-  .packages2 .featured {
-    border-top-color: #47b2e4;
-  }
-  .packages2 .featured .buy-btn {
-    background: #47b2e4;
-    color: #fff;
-  }
-  .packages2 .featured .buy-btn:hover {
-    background: #23a3df;
-  }
-  @media (max-width: 992px) {
-    .packages2 .box {
-      max-width: 60%;
-      margin: 0 auto 30px auto;
-    }
-  }
-  @media (max-width: 767px) {
-    .packages2 .box {
-      max-width: 80%;
-      margin: 0 auto 30px auto;
-    }
-  }
-  @media (max-width: 420px) {
-    .packages2 .box {
-      max-width: 100%;
-      margin: 0 auto 30px auto;
-    }
-  }
-
-  
   
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -746,10 +480,10 @@ section {
     content: "/";
   }
   
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer {
+  /*--------------------------------------------------------------
+  # Footer
+  --------------------------------------------------------------*/
+  #footer {
     font-size: 14px;
     background: #37517e;
   }
@@ -908,4 +642,4 @@ section {
     #footer .credits {
       padding-top: 4px;
     }
-  }  
+  }

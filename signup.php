@@ -28,7 +28,7 @@
      
                  <div class="backhome">
      
-                     <a href="index.php"><i class="fa fa-home"></i> <span>Home</span> </a>
+                     <a href="index.php"><i class="fa fa-home"></i> <span>Home</span></a>
      
                  </div>
      

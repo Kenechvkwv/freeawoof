@@ -33,22 +33,22 @@
         <header id="header" class="fixed-top">
           <div class="container d-flex align-items-center">
       
-            <h1 class="logo me-auto"><a href="index.html">FreeAwoof</a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            <!--<h1 class="logo me-auto"><a href="index.php">FreeAwoof</a></h1>
+            Uncomment below if you prefer to use an image logo -->
+            <a href="index.php"class="logo me-auto"><img src="images/logo1b.png" alt="" class="image-fluid"></a>
       
             <nav id="navbar" class="navbar">
               <ul>
                 <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                 <li><a class="nav-link scrollto" href="#about">About</a></li>
                 <li><a class="nav-link scrollto" href="#packages">Packages</a></li>
-                <li><a class="nav-link scrollto" href="#">Winner</a></li>
-                <li><a class="nav-link scrollto" href="login.html">Login</a></li>
+                <li><a class="nav-link scrollto" href="winners.php">Winner</a></li>
+                <li><a class="nav-link scrollto" href="login.php">Login</a></li>
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                <li><a class="getstarted scrollto" href="signup.html">Get Started</a></li>
+                <li><a class="getstarted scrollto" href="signup.php">Get Started</a></li>
               </ul>
               <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
+            </nav><!--navbar -->
       
           </div>
         </header><!-- End Header -->
@@ -64,7 +64,7 @@
                   <h1>FreeAwoof Giveaway</h1>
                   <h2>Win bigger prizes on freeawoof platform and become a millionaire overnight</h2>
                   <div class="d-flex justify-content-center justify-content-lg-start">
-                    <a href="signup.html" class="btn-get-started scrollto">Get Started</a>
+                    <a href="signup.php" class="btn-get-started scrollto">Get Started</a>
                   </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
@@ -175,6 +175,10 @@
 
             </div>
           </section><!-- End Pricing Section -->
+
+          <div class="">
+            
+          </div>
 
           <!-- ======= Contact Section ======= -->
           <section id="contact" class="contact">
