@@ -151,7 +151,7 @@
     
                           <div class="box">
                             <h3>Starter Plan</h3>
-                            <h4><sup>10,000 Naira</sup><span>Daily</span></h4>
+                            <h4><sup>10,000 Naira</sup><span>Weekly</span></h4>
                             <h3>Requirements</h3>
                             <ul>
                               <li><i class="bx bx-check"></i>Fee of 100naira</li>
@@ -170,7 +170,7 @@
     
                           <div class="box">
                             <h3>Developer Plan</h3>
-                            <h4><sup>20,000 Naira</sup><span>daily</span></h4>
+                            <h4><sup>20,000 Naira</sup><span>Weekly</span></h4>
                             <h3>Requirements</h3>
                             <ul>
                               <li><i class="bx bx-check"></i>Fee of 150naira</li>

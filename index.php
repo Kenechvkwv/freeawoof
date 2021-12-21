@@ -21,6 +21,7 @@
     <link href="styles/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="styles/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="styles/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="styles/fontawesome/css/all.min.css" rel="stylesheet">
 
     <!-- Main CSS File -->
     <link href="styles/css/style.css" rel="stylesheet">
@@ -75,6 +76,7 @@
 
           </section><!-- End Hero -->
 
+
           <!-- ======= About Us Section ======= -->
           <section id="about" class="about">
             <div class="container" data-aos="fade-up">
@@ -84,6 +86,7 @@
               </div>
 
               <div class="row content">
+
                 <div class="col-lg-6">
                   <p>
                     We are a fast based online giveaway platform, where you can win amazing prices such as airtime and cash.
@@ -174,11 +177,77 @@
               </div>
 
             </div>
-          </section><!-- End Pricing Section -->
+          </section>
+          
+          <section id="packages2" class="packages 2">
 
-          <div class="">
-            
-          </div>
+                <div class="container" data-aos="fade-up">
+
+                    <div class="row">
+      
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+    
+                          <div class="box">
+                            <h3>Starter Plan</h3>
+                            <h4><sup>10,000 Naira</sup><span>Weekly</span></h4>
+                            <h3>Requirements</h3>
+                            <ul>
+                              <li><i class="bx bx-check"></i>Fee of 100naira</li>
+                              <li><i class="bx bx-check"></i>Must be a registered user</li>
+                              <li><i class="bx bx-check"></i>Valid phone number and email</li>
+                              <li><i class="bx bx-check"></i>Refere at least two active users</li>
+                              <!-- <li class="na"><i class="bx bx-x"></i> <span></span></li> -->
+                            </ul>
+                            <h3>Coming Soon...</h3>
+                            <!-- <a href="#" class="buy-btn">Get Started</a> -->
+                          </div>
+    
+                        </div>
+        
+                        <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+    
+                          <div class="box">
+                            <h3>Developer Plan</h3>
+                            <h4><sup>20,000 Naira</sup><span>Weekly</span></h4>
+                            <h3>Requirements</h3>
+                            <ul>
+                              <li><i class="bx bx-check"></i>Fee of 150naira</li>
+                              <li><i class="bx bx-check"></i>Must be a registered user</li>
+                              <li><i class="bx bx-check"></i>Valid phone number and email</li>
+                              <li><i class="bx bx-check"></i>Refere at least four active users</li>
+                              <!-- <li class="na"><i class="bx bx-x"></i> <span></span></li> -->
+                            </ul>
+                            <h3>Coming Soon...</h3>
+                            <!-- <a href="#" class="buy-btn">Get Started</a> -->
+                          </div>
+    
+                        </div>
+        
+                        <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+    
+                          <div class="box">
+                            <h3>Prenium Plan</h3>
+                            <h4><sup>50,000 Naira</sup><span>Weekily</span></h4>
+                            <h3>Requirements</h3>
+                            <ul>
+                              <li><i class="bx bx-check"></i>Fee of 200naira</li>
+                              <li><i class="bx bx-check"></i>Must be a registered user</li>
+                              <li><i class="bx bx-check"></i>Valid phone number and email</li>
+                              <li><i class="bx bx-check"></i>Refere at least four active users</li>
+                              <!-- <li class="na"><i class="bx bx-x"></i> <span></span></li> -->
+                            </ul>
+                            <h3>Coming Soon...</h3>
+                            <!-- <a href="#" class="buy-btn">Get Started</a> -->
+                          </div>
+    
+                        </div>
+    
+                      </div>
+
+                </div>
+
+            </section>
+          <!-- End Pricing Section -->
 
           <!-- ======= Contact Section ======= -->
           <section id="contact" class="contact">
@@ -289,18 +358,19 @@
                     <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
                     <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
                     <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">FAQs</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">How FreeAwoof works</a></li>
                   </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
-                  <h4>Help</h4>
-                  <ul>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">FAQs</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">How FreeAwoof works</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Features</a></li>
-                  </ul>
+                  <h4>Share Link</h4>
+                  <p>Share our links to stand a better chance of wining our awoof giveaways and help others know about this beautiful opportunities </p>
+                    <div class="social-links mt-2">
+                      <a href="#" class="twitter-btn"><i class="bx bxl-twitter"></i></a>
+                      <a href="#" class="facebook-btn"><i class="bx bxl-facebook"></i></a>
+                      <a href="#" class="whatsapp-btn"><i class="bx bxl-whatsapp"></i></a>
+                    </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">

@@ -37,7 +37,7 @@
       
             <nav id="navbar" class="navbar">
               <ul>
-                <li><a class="nav-link scrollto" href="">Home</a></li>
+                <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                 <li><a class="nav-link scrollto" href="#packages">Packages</a></li>
                 <li><a class="nav-link scrollto active" href="winners.php">Winner</a></li>
                 <li><a class="nav-link scrollto" href="login.php">Login</a></li>

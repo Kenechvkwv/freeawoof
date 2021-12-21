@@ -504,26 +504,7 @@ section {
 .signup-form {
   width: 50%;
 }
-/* .form-cliq {
-  width: 100%;
-  position: relative;
-  background-color: rgba(15, 15, 15, 0.85);
-  border-radius: 20px;
-  margin-bottom: 15px;
-}
 
-.form-cliq {
-  font-family: "Jost", sans-serif;
-  font-size: 17px;
-  color: #000000;
-  line-height: 1.2;
-  display: flex;
-  justify-content: flex-end;
-  width: 80%;
-  height: 50px;
-  background: transparent;
-  padding: 0 20px 0 23px;
-} */
 input {
   outline: none;
   border: none;
@@ -548,12 +529,6 @@ input {
   font-size: 17px;
   font-family: "Jost", sans-serif;
   color: internal-light-dark(black, white);
-}
-
-::placeholder{
-  color: rgb(0, 0, 0);
-  font-size: 15px;
-  font-weight: 600;
 }
 
 .focus-muse10 {
