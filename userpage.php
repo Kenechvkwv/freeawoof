@@ -38,11 +38,11 @@
           
                 <nav id="navbar" class="navbar">
                   <ul>
-                    <li><a class="nav-link scrollto active" href="userpage.html">Home</a></li>
+                    <li><a class="nav-link scrollto active" href="userpage.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="#packages">Packages</a></li>
-                    <li><a class="nav-link scrollto" href="#packages">Winners</a></li>
+                    <li><a class="nav-link scrollto" href="winners.php">Winners</a></li>
                     <li><a class="nav-link scrollto" href="profile.html">Profile</a></li>
-                    <li><a class="getstarted scrollto" href="#index.html">signout</a></li>
+                    <li><a class="getstarted scrollto" href="#">signout</a></li>
                   </ul>
                   <i class="bi bi-list mobile-nav-toggle"></i>
                 </nav><!-- .navbar -->
