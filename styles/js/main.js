@@ -251,13 +251,26 @@
 
   /* social share links 
   
-  
-  
-  
+      WhatsApp:
+      https://wa-me/?text=[post-title] [post-url]
+
+      Facebook:
+      https://www.facebook.com/sharer.php?u=[post-url]
+
+      Twitter:
+      https://twitter.com/share?url=[post-url]&text=[post-title]
   
   
   */
 
+  const twitterBtn = document.querySelector(".twitter-btn");
+  const facebookBtn = document.querySelector(".facebook-btn");
+  const whatsappBtn = document.querySelector(".whatsapp-btn");
 
+  function init() {
+    
+  }
+
+  init();
 
 })()

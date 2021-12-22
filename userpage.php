@@ -235,62 +235,62 @@
                 </div>
     
                 <div class="footer-top">
-                    <div class="container">
-                        <div class="row">
-        
-                        <div class="col-lg-3 col-md-6 footer-contact">
-                            <h3>FreeAwoof</h3>
-                            <p>
-                            Lagos State <br>
-                            Nigeria <br><br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
-                            <strong>Email:</strong> freeawoof247@gmail.com<br>
-                            </p>
-                        </div>
-        
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Useful Links</h4>
-                            <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                            </ul>
-                        </div>
-        
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Help</h4>
-                            <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">FAQs</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">How FreeAwoof works</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Features</a></li>
-                            </ul>
-                        </div>
-        
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Our Social Networks</h4>
-                            <p>Nigeria leading online giveaway platform. Giving your a chance to be happy</p>
-                            <div class="social-links mt-3">
-                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                            </div>
-                        </div>
-        
-                        </div>
+            <div class="container">
+              <div class="row">
+
+                <div class="col-lg-3 col-md-6 footer-contact">
+                  <h3>FreeAwoof</h3>
+                  <div class="social-links mt-3">
+                    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                  <br/>
+                  <p>
+                    <strong>Email:</strong> freeawoof247@gmail.com<br>
+                  </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Useful Links</h4>
+                  <ul>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#packages">Packages</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Learn</h4>
+                  <ul>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">FAQs</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">How FreeAwoof works</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Share Link</h4>
+                  <p>Share our links to stand a better chance of wining our awoof giveaways and help others know about this beautiful opportunities </p>
+                    <div class="social-links mt-2">
+                      <a href="#" class="twitter-btn"><i class="bx bxl-twitter"></i></a>
+                      <a href="#" class="facebook-btn"><i class="bx bxl-facebook"></i></a>
+                      <a href="#" class="whatsapp-btn"><i class="bx bxl-whatsapp"></i></a>
                     </div>
                 </div>
-    
-                <div class="container footer-bottom clearfix">
-                    <div class="copyright">
-                        &copy; Copyright <strong><span>FreeAwoof</span></strong>. All Rights Reserved
-                    </div>
-                    <div class="credits">
-                        Designed by <a href="#">Muse</a>
-                    </div>
-                </div>
-            </footer><!-- End Footer -->
+
+              </div>
+            </div>
+          </div>
+
+          <div class="container footer-bottom clearfix">
+            <div class="copyright">
+              &copy; Copyright <strong><span>FreeAwoof</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+              Designed by <a href="#">Muse</a>
+            </div>
+          </div>
+        </footer><!-- End Footer -->
 
         </main>
         <div id="preloader"></div>
