@@ -93,6 +93,7 @@
                             <li><i class="bx bx-check"></i>Must be a registered user</li>
                             <li><i class="bx bx-check"></i>Valid phone number and email</li>
                             <li><i class="bx bx-check"></i>Follow all our social media handles</li>
+                            <li><i class="bx bx-check"></i>Share our website link with your friends</li>
                           </ul>
                           <a href="#" class="buy-btn">Participate</a>
                         </div>
@@ -110,6 +111,7 @@
                             <li><i class="bx bx-check"></i>Must be a registered user</li>
                             <li><i class="bx bx-check"></i>Valid phone number and email</li>
                             <li><i class="bx bx-check"></i>Follow all our social media handles</li>
+                            <li><i class="bx bx-check"></i>Share our website link with your friends</li>
                           </ul>
                           <h3>Coming Soon...</h3>
                           <!-- <a href="#" class="buy-btn">Get Started</a> -->
@@ -124,10 +126,11 @@
                           <h4><sup>5,000 Naira</sup><span>Weekily</span></h4>
                           <h3>Requirements</h3>
                           <ul>
-                            <li><i class="bx bx-check"></i>Free</li>
+                            <li><i class="bx bx-check"></i>Free for all users</li>
                             <li><i class="bx bx-check"></i>Must be a registered user</li>
                             <li><i class="bx bx-check"></i>Valid phone number and email</li>
                             <li><i class="bx bx-check"></i>Follow all our social media handles</li>
+                            <li><i class="bx bx-check"></i>Share our website link with your friends</li>
                             <!-- <li class="na"><i class="bx bx-x"></i> <span></span></li> -->
                           </ul>
                           <h3>Coming Soon...</h3>
@@ -155,10 +158,11 @@
                             <h4><sup>10,000 Naira</sup><span>Weekly</span></h4>
                             <h3>Requirements</h3>
                             <ul>
-                              <li><i class="bx bx-check"></i>Fee of 100naira</li>
+                              <li><i class="bx bx-check"></i>Free for all users</li>
                               <li><i class="bx bx-check"></i>Must be a registered user</li>
                               <li><i class="bx bx-check"></i>Valid phone number and email</li>
                               <li><i class="bx bx-check"></i>Follow all our social media handles</li>
+                              <li><i class="bx bx-check"></i>Share our website link with your friends</li>
                               <!-- <li class="na"><i class="bx bx-x"></i> <span></span></li> -->
                             </ul>
                             <h3>Coming Soon...</h3>
@@ -174,10 +178,11 @@
                             <h4><sup>20,000 Naira</sup><span>Weekly</span></h4>
                             <h3>Requirements</h3>
                             <ul>
-                              <li><i class="bx bx-check"></i>Fee of 150naira</li>
+                              <li><i class="bx bx-check"></i>Free for all users</li>
                               <li><i class="bx bx-check"></i>Must be a registered user</li>
                               <li><i class="bx bx-check"></i>Valid phone number and email</li>
                               <li><i class="bx bx-check"></i>Follow all our social media handles</li>
+                              <li><i class="bx bx-check"></i>Share our website link with your friends</li>
                               <!-- <li class="na"><i class="bx bx-x"></i> <span></span></li> -->
                             </ul>
                             <h3>Coming Soon...</h3>
@@ -193,10 +198,11 @@
                             <h4><sup>50,000 Naira</sup><span>Weekily</span></h4>
                             <h3>Requirements</h3>
                             <ul>
-                              <li><i class="bx bx-check"></i>Fee of 200naira</li>
+                              <li><i class="bx bx-check"></i>Free for all users</li>
                               <li><i class="bx bx-check"></i>Must be a registered user</li>
                               <li><i class="bx bx-check"></i>Valid phone number and email</li>
                               <li><i class="bx bx-check"></i>Follow all our social media handles</li>
+                              <li><i class="bx bx-check"></i>Share our website link with your friends</li>
                               <!-- <li class="na"><i class="bx bx-x"></i> <span></span></li> -->
                             </ul>
                             <h3>Coming Soon...</h3>
