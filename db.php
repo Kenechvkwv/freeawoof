@@ -7,7 +7,7 @@ session_start();
 // initializing variables
 $email    = "";
 $errors = array();
-include('errors.php');
+
 
 // connect to the database
 $db = mysqli_connect('localhost', 'root', '', 'freeawoof');

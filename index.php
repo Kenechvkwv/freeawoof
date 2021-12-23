@@ -7,8 +7,8 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>FreeAwoof</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+    <meta content="Best Giveaway Site in Nigeria. Win airtime and cash prizes" name="description">
+    <meta content="giveaway, awoof, free airtime" name="keywords">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -22,7 +22,7 @@
     <link href="styles/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="styles/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="styles/fontawesome/css/all.min.css" rel="stylesheet">
-
+    <link rel="shortcut icon" sizes="64x64" href="images/logo1b.png" type="image/png" />
     <!-- Main CSS File -->
     <link href="styles/css/style.css" rel="stylesheet">
 
@@ -36,7 +36,7 @@
       
             <!--<h1 class="logo me-auto"><a href="index.php">FreeAwoof</a></h1>
             Uncomment below if you prefer to use an image logo -->
-            <a href="index.php"class="logo me-auto"><img src="images/logo1b.png" alt="" class="image-fluid"></a>
+            <a href="index.php"class="me-auto"><img src="images/logo1b.png" alt="" style="max-width: 300px;"></a>
       
             <nav id="navbar" class="navbar">
               <ul>
