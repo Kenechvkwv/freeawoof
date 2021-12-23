@@ -22,7 +22,7 @@
     <link href="styles/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="styles/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="styles/fontawesome/css/all.min.css" rel="stylesheet">
-
+    <link rel="shortcut icon" sizes="64x64" href="images/logo1b.png" type="image/png" />
     <!-- Main CSS File -->
     <link href="styles/css/style.css" rel="stylesheet">
 
@@ -36,7 +36,7 @@
       
             <!--<h1 class="logo me-auto"><a href="index.php">FreeAwoof</a></h1>
             Uncomment below if you prefer to use an image logo -->
-            <a href="index.php"class="logo me-auto"><img src="images/logo1b.png" alt="" class="image-fluid"></a>
+            <a href="index.php"class="me-auto"><img src="images/logo1b.png" alt="" style="max-width: 300px;"></a>
       
             <nav id="navbar" class="navbar">
               <ul>
