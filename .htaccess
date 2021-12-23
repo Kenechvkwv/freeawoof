@@ -10,5 +10,5 @@ RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
 RewriteRule ^ /%1 [R=301,NE,L]
 
 
-"ErrorDocument 404 /freeawoof/404.php"
-    
+ErrorDocument 404 /freeawoof/404.php
+

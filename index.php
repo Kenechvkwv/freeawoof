@@ -36,7 +36,7 @@
       
             <!--<h1 class="logo me-auto"><a href="index.php">FreeAwoof</a></h1>
             Uncomment below if you prefer to use an image logo -->
-            <a href="index.php"class="me-auto"><img src="images/logo1b.png" alt="" style="max-width: 300px;"></a>
+            <a href="index.php"class="me-auto"><img src="images/logo1b.png" alt="" style="max-width: 110px;"></a>
       
             <nav id="navbar" class="navbar">
               <ul>
