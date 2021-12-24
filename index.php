@@ -383,9 +383,9 @@
                   <h4>Share Link</h4>
                   <p>Share our links to stand a better chance of wining our awoof giveaways and help others know about this beautiful opportunities </p>
                     <div class="social-links mt-2">
-                      <a href="#" class="twitter-btn"><i class="bx bxl-twitter"></i></a>
-                      <a href="#" class="facebook-btn"><i class="bx bxl-facebook"></i></a>
-                      <a href="#" class="whatsapp-btn"><i class="bx bxl-whatsapp"></i></a>
+                      <a href="" class="twitter-btn"><i class="bx bxl-twitter"></i></a>
+                      <a href="" class="facebook-btn"><i class="bx bxl-facebook"></i></a>
+                      <a href="" class="whatsapp-btn"><i class="bx bxl-whatsapp"></i></a>
                     </div>
                 </div>
 
