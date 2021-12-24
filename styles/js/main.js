@@ -274,17 +274,17 @@
 
     twitterBtn.setAttribute(
       "href",
-      'https://twitter.com/share?url=${postUrl}&text=${postTitle}'
+      `https://twitter.com/share?url=${postUrl}&text=${postTitle}`
     );
 
     facebookBtn.setAttribute(
       "href",
-      'https://www.facebook.com/sharer.php?u=${postUrl}'
+      `https://www.facebook.com/sharer.php?u=${postUrl}`
     );
 
     whatsappBtn.setAttribute(
       "href",
-      'https://wa-me/?text=${postTitle} ${postUrl}'
+      `https://wa-me/?text=${postTitle} ${postUrl}`
     );
   }
 
