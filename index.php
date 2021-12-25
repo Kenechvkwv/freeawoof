@@ -102,7 +102,7 @@
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0">
                   <p>
-                    Freeawoof is Nigeria's leading onlinee giveaway platform of different prizes.
+                    Freeawoof is Nigeria's leading online giveaway platform of different prizes.
                     With our platform we thrive on the basis that everyone should have the opportunity to participate and stand equal chance of winning.
                     We believe in access, transparency, fairness, and most importantly #NoOjoro.
                   </p>
@@ -353,8 +353,8 @@
                   <h3>FreeAwoof</h3>
                   <div class="social-links mt-3">
                     <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://www.facebook.com/freeawoof247/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://www.instagram.com/free_awoof/" class="instagram"><i class="bx bxl-instagram"></i></a>
                   </div>
                   <br/>
                   <p>
