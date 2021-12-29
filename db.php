@@ -43,7 +43,7 @@ if (isset($_POST['reg_user'])) {
     }
     if (empty($confirm)) {
         array_push($errors, "You have to agree to all Terms of Service");
-    }
+    };
 
     // first check the database to make sure 
     // a user does not already exist with the same username and/or email
@@ -55,7 +55,7 @@ if (isset($_POST['reg_user'])) {
         if ($user['username'] === $email) {
             array_push($errors, "username already exists");
         }
-    }
+    };
 
     // Finally, register user if there are no errors in the form
     if (count($errors) == 0) {
@@ -68,7 +68,7 @@ if (isset($_POST['reg_user'])) {
         $_SESSION['success'] = "You are now logged in";
         header('location: profile.php');
     }
-}
+};
 
 
 

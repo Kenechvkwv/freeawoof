@@ -36,7 +36,7 @@
       
             <!--<h1 class="logo me-auto"><a href="index.php">FreeAwoof</a></h1>
             Uncomment below if you prefer to use an image logo -->
-            <a href="index.php"class="me-auto"><img src="images/logo1b.png" alt="" style="max-width: 300px;"></a>
+            <a href="index.php"class="me-auto"><img src="images/logo1b.png" alt="" style="max-width: 200px;"></a>
       
             <nav id="navbar" class="navbar">
               <ul>
@@ -293,7 +293,7 @@
                 </div>
 
                 <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <form action="form.php" method="post" role="form" class="php-email-form">
                     <div class="row">
                       <div class="form-group col-md-6">
                         <label for="name">Your Name</label>

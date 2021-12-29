@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    
+
     <div class="container-muse">
 
         <div class="muse-login">
@@ -38,7 +38,7 @@
                 <span class="login-title">
                     Login
                 </span>
-
+                <?php include('errors.php'); ?>
                 <div class="mb-2 validate-input" data-validate="Enter your username">
 
                     <input class="form-control" type="text" name="username" placeholder="username">
@@ -53,29 +53,34 @@
 
                 </div>
 
-                <div class="forgotpassword">
 
-                    <span>Forgot Password <a class="click2" href="#">Click Here</a></span>
-
-                </div>
 
                 <div class="container-muse10-button">
 
-                    <button class="muse10-btn" type="submit" name="login_user" >Login</button>
+                    <button class="muse10-btn" type="submit" name="login_user">Login</button>
 
                 </div>
 
-                <div class="text-center">
 
-                    <a href="signup.php" class="text1"> Sign Up </a>
-
-                </div>
 
             </form>
+
+            <div class="forgotpassword">
+
+                <span>Forgot Password <a class="click2" href="#">Click Here</a></span>
+
+            </div>
+            <div class="text-center">
+
+                <a href="signup.php" class="text1"> Sign Up </a>
+
+            </div>
 
         </div>
 
     </div>
+    <!-- Template Main JS File -->
+    <script src="styles/js/main.js"></script>
 
 </body>
 
