@@ -36,6 +36,7 @@
       
             <!--<h1 class="logo me-auto"><a href="index.php">FreeAwoof</a></h1>
             Uncomment below if you prefer to use an image logo -->
+
             <a href="index.php"class="me-auto"><img src="images/logo1b.png" alt="" style="max-width: 200px;"></a>
       
             <nav id="navbar" class="navbar">
@@ -102,7 +103,7 @@
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0">
                   <p>
-                    Freeawoof is Nigeria's leading onlinee giveaway platform of different prizes.
+                    Freeawoof is Nigeria's leading online giveaway platform of different prizes.
                     With our platform we thrive on the basis that everyone should have the opportunity to participate and stand equal chance of winning.
                     We believe in access, transparency, fairness, and most importantly #NoOjoro.
                   </p>
@@ -353,8 +354,8 @@
                   <h3>FreeAwoof</h3>
                   <div class="social-links mt-3">
                     <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://www.facebook.com/freeawoof247/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://www.instagram.com/free_awoof/" class="instagram"><i class="bx bxl-instagram"></i></a>
                   </div>
                   <br/>
                   <p>
@@ -383,9 +384,9 @@
                   <h4>Share Link</h4>
                   <p>Share our links to stand a better chance of wining our awoof giveaways and help others know about this beautiful opportunities </p>
                     <div class="social-links mt-2">
-                      <a href="#" class="twitter-btn"><i class="bx bxl-twitter"></i></a>
-                      <a href="#" class="facebook-btn"><i class="bx bxl-facebook"></i></a>
-                      <a href="#" class="whatsapp-btn"><i class="bx bxl-whatsapp"></i></a>
+                      <a href="" class="twitter-btn"><i class="bx bxl-twitter"></i></a>
+                      <a href="" class="facebook-btn"><i class="bx bxl-facebook"></i></a>
+                      <a href="" class="whatsapp-btn"><i class="bx bxl-whatsapp"></i></a>
                     </div>
                 </div>
 

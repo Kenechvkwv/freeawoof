@@ -1,1 +1,14 @@
-ErrorDocument 404 http://localhost/freeawoof/404.html
+Options +MultiViews
+
+
+RewriteEngine On 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteRule ^ /%1 [R=301,NE,L]
+
+
+ErrorDocument 404 /freeawoof/404.php
+

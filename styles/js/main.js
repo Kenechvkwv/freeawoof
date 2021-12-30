@@ -258,7 +258,7 @@
       https://www.facebook.com/sharer.php?u=[post-url]
 
       Twitter:
-      https://twitter.com/share?url=[post-url]&text=[post-title]
+      https://twitter.com/share?url=[post-url]&text=[post-title]&via=[via]&hashtags=[hashtags]
   
   
   */
@@ -268,7 +268,24 @@
   const whatsappBtn = document.querySelector(".whatsapp-btn");
 
   function init() {
-    
+    let postUrl = encodeURI(document.location.href);
+    let postTitle = encodeURI("Hieveryone,pleasecheckoutfreewAwoofgiveawayplatform:" );
+    console.log(postTitle);
+
+    twitterBtn.setAttribute(
+      "href",
+      `https://twitter.com/share?url=${postUrl}&text=${postTitle}`
+    );
+
+    facebookBtn.setAttribute(
+      "href",
+      `https://www.facebook.com/sharer.php?u=${postUrl}`
+    );
+
+    whatsappBtn.setAttribute(
+      "href",
+      `https://wa-me/?text=${postTitle} ${postUrl}`
+    );
   }
 
   init();
